@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  color: white;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 128px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.fs-4 {
+  font-size: 16px;
+}
+
+.navbar {
+  padding-top: 40px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  width: 306px;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  padding: 72px 0;
+}
+
+.jumbotron-img {
+  width: 50%;
+}
+
+.jumbotron-block {
+  width: 50%;
+  margin-left: 24px;
+}
+
+.jumbotron-desc {
+  font-size: 64px;
+}
+
+.jumbotron-name {
+  text-align: right;
+  color: rgba(0, 255, 163, 1);
+}
+
+.jumbotron-contact-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbotron-contact-btn a {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 32px;
+}
+
+.jumbotron-contact-btn img {
+  margin-left: 8px;
+}
+
+.intro {
+  background-image: url("../img/background-img.png");
+  padding: 160px 0;
+}
+
+.intro .container {
+  display: flex;
+}
+
+.intro-left-block {
+  width: 526px;
+}
+
+.intro-desc {
+  margin-top: 36px;
+}
+
+.intro-left-img-block {
+  display: flex;
+  margin-top: 32px;
+}
+
+.intro-left-img-block img {
+  margin-right: 16px;
+}
+
+.intro-right-block {
+  display: flex;
+}
+
+.intro-right-block img {
+  display: flex;
+  margin-left: 24px;
+}
+
+.about-me {
+  background-color: #fff;
+  padding: 160px 0;
+}
+
+.about-me .container {
+  display: flex;
+}
+
+.about-me-card-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 636px;
+}
+
+.about-me-card {
+  width: 306px;
+  margin: 24px 0;
+  padding: 16px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid rgba(227, 227, 227, 1);
+}
+
+.about-me-card:nth-of-type(2n) {
+  margin-left: 24px;
+}
+
+.about-me-card-title,
+.about-me-card-desc {
+  margin-top: 4px;
+}
+
+.about-main-block {
+  width: 526px;
+  margin-left: 134px;
+}
+
+.about-main-block h2,
+.about-main-block p {
+  color: #000;
+}
+
+.about-main-block p {
+  margin-top: 36px;
+}
+
+.contact-me {
+  padding: 96px 0;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 0, 20, 1) 0%,
+    rgba(1, 2, 30, 0.89) 100%
+  );
+}
+
+.contact-me .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-me .contact-me-title,
+.contact-me-link {
+  display: flex;
+}
+
+.contact-me .contact-me-title {
+  align-items: center;
+  width: 657px;
+}
+
+.contact-me-title img {
+  width: 100px;
+  height: 100px;
+  margin-left: 16px;
+}
+
+.contact-me .contact-me-link {
+  align-items: center;
+}
+
+.my-projects {
+  background-color: #fff;
+  padding: 160px 0;
+}
+
+.my-projects-title {
+  color: #000;
+  text-align: right;
+  padding-right: 220px;
+}
+
+.my-projects-block {
+  display: flex;
+  margin-top: 16px;
+}
+
+.my-projects-info-block {
+  margin-left: 24px;
+}
+
+.my-projects-info-intro-block,
+.my-projects-info-img-block {
+  display: flex;
+}
+
+.my-projects-info-intro-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000;
+  margin-left: 24px;
+}
+
+.see-more-btn {
+  display: flex;
+  align-items: center;
+  width: 189px;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 32px;
+}
+
+.see-more-btn img {
+  margin-left: 8px;
+}
+
+.my-projects-info-img-block {
+  margin-top: 28px;
+}
+
+.my-projects-info-img-block img:nth-of-type(2n) {
+  margin-left: 24px;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+}
